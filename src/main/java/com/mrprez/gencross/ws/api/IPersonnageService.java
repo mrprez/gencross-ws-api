@@ -7,6 +7,7 @@ import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
 import com.mrprez.gencross.disk.PluginDescriptor;
+import com.mrprez.gencross.ws.api.bo.PersonnageLabel;
 
 @WebService
 @SOAPBinding(style = Style.RPC)
@@ -16,5 +17,8 @@ public interface IPersonnageService {
 	
 	@WebMethod
 	PluginDescriptor[] getPluginList() throws Exception;
+
+	@WebMethod
+	PersonnageLabel[] getPersonnageLabels(PluginDescriptor pluginDescriptor) throws Exception;
 
 }
