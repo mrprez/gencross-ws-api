@@ -2,11 +2,14 @@ package com.mrprez.gencross.ws.api.bo;
 
 public class PersonnageLabel {
 	
-	private final int id;
+	private int id;
 	
 	private String name;
 
 	
+	public PersonnageLabel(){
+		super();
+	}
 	
 	public PersonnageLabel(int id, String name) {
 		super();
@@ -34,6 +37,10 @@ public class PersonnageLabel {
 
 	public int getId() {
 		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getName() {

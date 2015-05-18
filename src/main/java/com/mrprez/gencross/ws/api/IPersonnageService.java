@@ -20,5 +20,8 @@ public interface IPersonnageService {
 
 	@WebMethod
 	PersonnageLabel[] getPersonnageLabels(PluginDescriptor pluginDescriptor) throws Exception;
+	
+	@WebMethod
+	byte[] getPersonnage(int id) throws Exception;
 
 }
