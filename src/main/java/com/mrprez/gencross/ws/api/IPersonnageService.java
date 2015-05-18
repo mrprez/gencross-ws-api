@@ -23,5 +23,8 @@ public interface IPersonnageService {
 	
 	@WebMethod
 	byte[] getPersonnage(int id) throws Exception;
+	
+	@WebMethod
+	void savePersonnage(int personnageId, byte[] xml) throws Exception;
 
 }
