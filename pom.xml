@@ -6,7 +6,7 @@
 	
 	<artifactId>gencross-ws-api</artifactId>
 	<groupId>com.mrprez.gencross</groupId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	
 	<parent>
 		<artifactId>mrprez</artifactId>
@@ -17,7 +17,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/mrprez/gencross-ws-api.git</connection>
 		<developerConnection>scm:git:git@github.com:mrprez/gencross-ws-api.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>gencross-ws-api-1.0</tag>
 	</scm>
 	
 	<dependencies>
